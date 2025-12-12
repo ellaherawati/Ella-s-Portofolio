@@ -1,15 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ella Herawati - Web Developer Portfolio</title>
-    <link rel="stylesheet" href="assets/css/style.css"></link>
-    <style></style>
-</head>
+
+<?php require __DIR__ . '/template/head.php'; ?>
 
 <body>
-    <header>
+<?php include 'template/header.php'; ?>
+    
         <h1 class="header-title">I'm Web Developer</h1>
         <h1 class="header-name">📚Ela Herawati🧤</h1>
         <p class="header-intro">Hallo! Saya Ela Herawati yang sekarang sedang menempuh pendidikan S1 Informatika dan saya sangat menyukai design dan pemrograman. Ini adalah halaman pertama saya yang saya buat dengan HTML dan CSS. Saya berharap dapat membuat website yang menarik di masa depan.</p>
@@ -30,7 +24,7 @@
             </nav>
         </fieldset>
         <hr>
-    </header>
+    
     
     <main>
         <div id="aboutme">
